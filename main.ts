@@ -8,7 +8,7 @@
 import { chmodSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const EXCUSE =
-  "I delegated the deadline to a subagent, who delegated it straight back to me, and we have been politely passing it back and forth ever since.";
+  "I delegated the deadline to a subagent, who delegated it straight back — and we have been politely passing it back and forth ever since.";
 
 if ([...EXCUSE].length < 1 || [...EXCUSE].length > 200) {
   throw new Error(
